@@ -1,12 +1,11 @@
 ## 浙工大958C++
-   
-- 本仓库属于浙工大计算机958代码仓库，**同时也是极好的C++入门教程仓库，你只要根据这篇Readme，一步一步来就能踏入程序开发的世界**
+    
+    本仓库属于浙工大计算机958代码仓库，**同时也是极好的C++入门教程仓库，你只要根据这篇Readme，一步一步来就能踏入程序开发的世界**
     
 
-    your_branch_nae最好用自己的名字拼音，确保跟别人不一样
 
 - 默认你会用github与vscode，百度一下这两样东西不会超过5分钟
-- 下载仓库的同学git clone到本地后建议git fetch origin master:your_branch_name 该指令会基于远程master分支在你本地创建一个你自己的branch
+- 下载仓库的同学git clone到本地后建议git fetch origin master:your_branch_name 该指令会基于远程master分支在你本地创建一个你自己的branch,your_branch_nae最好用自己的名字拼音，确保跟别人不一样
 - git checktout your_branch_name即可进入自己的分支
 - 需要在远程创建自己分支的话 git push origin your_branch_name:your_branch_name
 - 本地push自己分支的代码到远程 git push --set-upstream origin your_branch_name
