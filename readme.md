@@ -8,6 +8,10 @@
 - 本地push自己分支的代码到远程 git push --set-upstream origin your_branch_name
 - 以后每次提交前请先git pull一下，防止conflict
 
+    编辑器推荐vscode，目录/代码/笔记/终端都在同一个界面,效果极好
+![](http://ww2.sinaimg.cn/large/006tNc79ly1g4bgjp3fbnj31c00u0aiz.jpg)
+
+
 ### 1 LISENCE
     采用了Apache-2.0 LISENCE,最大权限地开源项目代码。大家提交时必须带上作者名，否则会被打回去。
 **这是一个基于开源精神搭建起来的仓库，需要每个人共同维护！想加入我的话可以将你的微信号发到huangrichao@growingio.com,我会邀请你的**
