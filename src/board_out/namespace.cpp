@@ -19,10 +19,12 @@ namespace B{
     }
 }
 
+using namespace B;
 int main(int args,char* argv[]){
      
     cout<<A::x<<endl; 
-    B::func2();
+    B::func();
+    func2();
     cin.get();
     return 0;
 }
