@@ -14,10 +14,10 @@
 
 ### 1 LISENCE
     采用了Apache-2.0 LISENCE,最大权限地开源项目代码。大家提交时必须带上作者名，否则会被打回去。
-**这是一个基于开源精神搭建起来的仓库，需要每个人共同维护！想加入我的话可以将你的微信号发到huangrichao@growingio.com,我会邀请你的**
+**这是一个基于开源精神搭建起来的仓库，联系邮箱是huangrichao@growingio.com，工作日都可接受，欢迎提issues**
 
 ### 2 项目经验
-- 考研复试，工作实习需要写简历的，参考这个简历PDF [校招开发工程师简历](https://download.csdn.net/download/weixin_41474319/11251698)
+- 考研复试，工作实习需要写简历的，参考这个简历提PDF [校招开发工程师简历](https://download.csdn.net/download/weixin_41474319/11251698)
 - 想要搞几个项目丰富自己的简历，参考这篇博客[我是如何通过项目丰富我的简历的](https://blog.csdn.net/weixin_41474319/article/details/80885656)
 - 毕设答辩PPT没时间写的，参考这个[PPT](https://download.csdn.net/download/weixin_41474319/11251688)
   
