@@ -27,6 +27,9 @@
 - /src/board_out放得是慕课起航篇的代码
 - /src/958C++放得是真题代码
 - 这三个目录我会在master里持续更新
+- Git Course.md放得是git入门教程
+- C++ Note放得是C++学习笔记
+- 这两个文件全部用makrdown语言整理好了，后续也会持续更新
 
 ## 代码编译参数
 - 最好是Mac或Linux环境
