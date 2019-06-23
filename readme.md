@@ -18,6 +18,10 @@
 - git config --global alias.lg=log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'
 - git config --global alias.llg=log --pretty=format:'%h %ai %ce %s'
 
+    git lg效果
+
+![](http://ww4.sinaimg.cn/large/006tNc79gy1g4banjynctj31540bcwg7.jpg)
+
 
 ## 慕课C++入门地址
 [C++起航篇等系列教程](https://www.imooc.com/course/list?c=cplusplus)
