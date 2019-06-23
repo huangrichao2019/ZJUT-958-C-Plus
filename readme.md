@@ -1,4 +1,4 @@
-## 958C++练习代码仓库
+## 浙工大958C++练习代码仓库
     your_branch_nae最好用自己的名字拼音，确保跟别人不一样
 - 本仓库属于浙工大计算机958代码联系仓库
 - 需要的同学clone到本地后自行git fetch origin master:your_branch_name 
