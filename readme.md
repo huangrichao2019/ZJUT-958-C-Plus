@@ -30,5 +30,5 @@
 
 ## 代码编译参数
 - 最好是Mac或Linux环境
-- 推荐g++ -Wall -o hello hello.cpp生成hello.obj文件
+- 推荐用终端编译cpp源文件 g++ -Wall -o hello hello.cpp生成hello.obj文件
 - ./hello即可运行
