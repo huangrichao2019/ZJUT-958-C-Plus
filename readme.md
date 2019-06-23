@@ -9,7 +9,7 @@
 - 以后每次提交前请先git pull一下，防止conflict
 
     编辑器推荐vscode，目录/代码/笔记/终端都在同一个界面,效果极好
-![](http://ww2.sinaimg.cn/large/006tNc79ly1g4bgjp3fbnj31c00u0aiz.jpg)
+![](http://ww3.sinaimg.cn/large/006tNc79ly1g4bgoe78okj31c00u048o.jpg)
 
 
 ### 1 LISENCE
