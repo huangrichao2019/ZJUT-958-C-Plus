@@ -1,7 +1,10 @@
-## 浙工大958C++练习代码仓库
+## 浙工大958C++
+   
+- 本仓库属于浙工大计算机958代码仓库，**同时也是极好的C++入门学习仓库，你只要根据这篇Readme，一步一步来就能踏入程序开发的世界**
+    
     your_branch_nae最好用自己的名字拼音，确保跟别人不一样
-- 本仓库属于浙工大计算机958代码练习仓库
-- 需要的同学clone到本地后自行git fetch origin master:your_branch_name 
+- 默认你会用github与vscode，不会用的百度一下这两样东西不会超过5分钟
+- 下载仓库的同学clone到本地后建议git fetch origin master:your_branch_name 
 - 该指令会基于远程master分支在你本地创建一个你自己的branch
 - git checktout your_branch_name即可进入自己的分支
 - 需要在远程创建自己分支的话 git push origin your_branch_name:your_branch_name
@@ -42,9 +45,11 @@
 [C++起航篇等系列教程](https://www.imooc.com/course/list?c=cplusplus)
 
 ### 5 代码目录
-- /src/just_play放得是我练手的代码
-- /src/board_out放得是慕课起航篇的代码
-- /src/958C++放得是真题代码
+- /src/just_play 练手的代码 C语言100例为主
+- /src/board_out 起航篇的代码 bool cin cout namespace
+- /src/departure 起航篇的代码 指针&&引用 #define&&const 函数默认&&函数重载 内存管理
+- /src/inherit 继承篇的代码
+- /src/958C++ 真题的代码
 - 这三个目录我会在master里持续更新
 - Git Course.md放得是git入门教程
 - C++ Note.md放得是C++学习笔记
