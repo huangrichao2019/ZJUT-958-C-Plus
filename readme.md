@@ -7,6 +7,8 @@
 - 需要在远程创建自己分支的话 git push origin your_branch_name:your_branch_name
 - 本地push自己分支的代码到远程 git push --set-upstream origin your_branch_name
 
+### LISENCE
+采用了Apache-2.0 LISENCE,最大权限地开源项目代码。大家提交时必须带上作者名，否则会被打回去。
 ### Git配置
     推荐如下配置，日常开发非常方便：
 - git config --global user.email"you@example.com"
