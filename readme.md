@@ -3,9 +3,8 @@
 - 本仓库属于浙工大计算机958代码仓库，**同时也是极好的C++入门学习仓库，你只要根据这篇Readme，一步一步来就能踏入程序开发的世界**
     
     your_branch_nae最好用自己的名字拼音，确保跟别人不一样
-- 默认你会用github与vscode，不会用的百度一下这两样东西不会超过5分钟
-- 下载仓库的同学clone到本地后建议git fetch origin master:your_branch_name 
-- 该指令会基于远程master分支在你本地创建一个你自己的branch
+- 默认你会用github与vscode，百度一下这两样东西不会超过5分钟
+- 下载仓库的同学git clone到本地后建议git fetch origin master:your_branch_name 该指令会基于远程master分支在你本地创建一个你自己的branch
 - git checktout your_branch_name即可进入自己的分支
 - 需要在远程创建自己分支的话 git push origin your_branch_name:your_branch_name
 - 本地push自己分支的代码到远程 git push --set-upstream origin your_branch_name
@@ -26,7 +25,7 @@
   
 
 ### 3 Git配置
-    推荐如下配置，日常开发非常方便：
+    推荐如下配置，直接在终端里输就行，日常开发非常方便：
 - git config --global user.email"you@example.com"
 - git config --global user.name"你的名字"
 - git config --global alias.co checkout
@@ -45,14 +44,14 @@
 [C++起航篇等系列教程](https://www.imooc.com/course/list?c=cplusplus)
 
 ### 5 代码目录
-- /src/just_play 练手的代码 C语言100例为主
-- /src/board_out 起航篇的代码 bool cin cout namespace
-- /src/departure 起航篇的代码 指针&&引用 #define&&const 函数默认&&函数重载 内存管理
-- /src/inherit 继承篇的代码
-- /src/958C++ 真题的代码
+- /src/just_play 练手代码 C语言100例为主
+- /src/board_out 起航篇代码 bool cin cout namespace
+- /src/departure 起航篇代码 指针&&引用 #define&&const 函数默认&&函数重载 内存管理
+- /src/inherit 继承篇代码
+- /src/958C++ 真题代码
 - 这三个目录我会在master里持续更新
-- Git Course.md放得是git入门教程
-- C++ Note.md放得是C++学习笔记
+- Git Course.md  git入门教程
+- C++ Note.md  C++学习笔记
 - 这两个文件全部用makrdown语言整理好了，后续也会持续更新
 
 ### 6 代码编译参数
