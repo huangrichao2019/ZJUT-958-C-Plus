@@ -212,7 +212,7 @@ bool reverseNum(unsigned n){
 ```math
 k=\begin{cases}\sqrt{\sin^2r+\sin^2s} ~~~~r^2\leq s^2\\ ~\frac{1}{2}\sin(rs)~~~~~~~~~~~~~~~~r^2>s^2 \end{cases}
 ```
-### `$\sin x=\frac{x}{1!}-\frac{x^3}{3!}+\frac{x^5}{5!}+\cdots=~\sum_{n=1}^{n}(-1)^{n-1}~\frac{x^(2n-1)}{(2n-1)!}$`
+### $\sin x=\frac{x}{1!}-\frac{x^3}{3!}+\frac{x^5}{5!}+\cdots=~\sum_{n=1}^{n}(-1)^{n-1}~\frac{x^(2n-1)}{(2n-1)!}$
 
 
 ### 13.函数
