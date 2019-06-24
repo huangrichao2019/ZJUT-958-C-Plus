@@ -500,6 +500,8 @@ gcc/g++在执行编译工作的时候，总共需要4步
 - 引用就是变量的别名，故引用必须初始化，它必须先声明一次所指向的对象。
 - 引用也可以是结构体的别名
 - 引用也可以是指针的别名，注意指针的引用也是指针
+总结：引用不是地址，它就是不同名字的同一变量
+
 #### 引用可以做函数参数
 c的写法
 - void fun(int *a,int *b){};
@@ -519,6 +521,7 @@ c++的写法
 const int x =3 则存储内容置灰不可变
 
 ### 写法
+```c++
 int x = 3;
 const int *p = &x //*p不可变 x不可变，p可变,
 int const *p = NULL 二者等价 //*p不可变,x不可变，p可变
@@ -526,8 +529,8 @@ int const *p = NULL 二者等价 //*p不可变,x不可变，p可变
 指针变量p与指针*p是两个不同的东西 const一次只能锁一个，所以需要两个const
 
 int* const p =NULL //*p可以变，p不可变
-const int* const p =&x //*p，x,p都不可变
-int const* const p= NULL //*p,x,p都不可变
+const int* const p =&x //*p,p都不可变
+int const* const p= NULL //*p,p都不可变
 
 const int y =5 不可赋值给 int* const t = &y; 二者不是同事物
 
@@ -535,12 +538,19 @@ int *p = &x; 准确得写法是int* p = &x；因为p与&x都是int数据
 
 *p是int* ,二int* 就是x，&x是int，二者不一致；
 
+const int x = 10;
+int y = x;不允许，const变量不允许被赋给非const
+```
 #### 指针总结
-
+```C++
 int x = 3;
 int y = 5;
 int* p = &x; 此时 x.equals(*p)；等价于 int &t = x;此时x.euqals(t)
 p=&y;此时,y.equals(*p);等价于int &t = y;此时y.equals(t)；
+```
+
+
+
 
 ### 标准模板
 ```c++
