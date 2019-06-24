@@ -59,3 +59,17 @@
 - 最好是Mac或Linux环境
 - 推荐用终端编译cpp源文件 g++ -Wall -o hello hello.cpp生成hello.obj文件
 - ./hello即可运行
+
+### 一句话理解指针与引用
+真的一句话
+```
+int x = 0;
+int* p = &x; 此时*p就是当x用
+int& t = x; 此时t就是当x用
+
+给*p换个指向的对象
+p = &y;即可
+
+给t换个引用的对象
+不好意思，这个墙头草特性被c++之父干掉了
+

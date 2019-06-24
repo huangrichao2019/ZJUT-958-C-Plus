@@ -508,6 +508,39 @@ c++的写法
 - void fun(int &a,int &b){};
 - fun(x,y)
 
+## const
+
+对于 int x =3 有如下内存模型
+
+|变量名|存储地址|存储内容|
+--|--|--|--
+|x|&x|3|
+
+const int x =3 则存储内容置灰不可变
+
+### 写法
+int x = 3;
+const int *p = &x //*p不可变 x不可变，p可变,
+int const *p = NULL 二者等价 //*p不可变,x不可变，p可变
+
+指针变量p与指针*p是两个不同的东西 const一次只能锁一个，所以需要两个const
+
+int* const p =NULL //*p可以变，p不可变
+const int* const p =&x //*p，x,p都不可变
+int const* const p= NULL //*p,x,p都不可变
+
+const int y =5 不可赋值给 int* const t = &y; 二者不是同事物
+
+int *p = &x; 准确得写法是int* p = &x；因为p与&x都是int数据
+
+*p是int* ,二int* 就是x，&x是int，二者不一致；
+
+#### 指针总结
+
+int x = 3;
+int y = 5;
+int* p = &x; 此时 x.equals(*p)；等价于 int &t = x;此时x.euqals(t)
+p=&y;此时,y.equals(*p);等价于int &t = y;此时y.equals(t)；
 
 ### 标准模板
 ```c++
