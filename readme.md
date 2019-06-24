@@ -13,7 +13,9 @@
 - 打标签 git tag -a v1.0 -m '起航篇'
 - 推送标签到远程 git push origin --tags
 
-    编辑器推荐vscode，目录/代码/笔记/终端都在同一个界面,效果极好
+
+        编辑器推荐vscode，目录/代码/笔记/终端都在同一个界面,效果极好
+
 ![](http://ww3.sinaimg.cn/large/006tNc79ly1g4bgoe78okj31c00u048o.jpg)
 
 
