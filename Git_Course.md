@@ -341,3 +341,6 @@ cherry-pick是对
 - git fetch origin master:tmp
 - git diff tmp
 - git merge tmp
+
+## 查看所有修改过但未提交的文件
+- git add -i <PATH>

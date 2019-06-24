@@ -14,6 +14,7 @@ int main(int args,char* argv[]){
     <<"\n十六进制："<<hex<<y
     <<"\n二进制："<<bitset<8>(y)
     <<"\nbool:"<<boolalpha<<x<<endl;
+    cout<<"ascii转数字"<<0+' '<<endl;//将ascii符号转为对应的数字
     return 0;
 }
 
