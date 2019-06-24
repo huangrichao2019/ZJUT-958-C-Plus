@@ -10,6 +10,8 @@
 - 需要在远程创建自己分支的话 git push origin your_branch_name:your_branch_name
 - 本地push自己分支的代码到远程 git push --set-upstream origin your_branch_name
 - 以后每次提交前请先git pull一下，防止conflict
+- 打标签 git tag -a v1.0 -m '起航篇'
+- 推送标签到远程 git push origin --tags
 
     编辑器推荐vscode，目录/代码/笔记/终端都在同一个界面,效果极好
 ![](http://ww3.sinaimg.cn/large/006tNc79ly1g4bgoe78okj31c00u048o.jpg)
