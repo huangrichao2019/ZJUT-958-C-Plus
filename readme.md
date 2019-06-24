@@ -27,6 +27,7 @@
 
 ### 3 Git配置
 [Git超速入门](https://blog.csdn.net/weixin_41474319/article/details/82850521)
+
     推荐如下配置，直接在终端里输就行，日常开发非常方便：
 - git config --global user.email"you@example.com"
 - git config --global user.name"你的名字"
@@ -44,6 +45,7 @@
 
 ### 4 慕课C++入门地址
 [C++起航篇等系列教程](https://www.imooc.com/course/list?c=cplusplus)
+
 [C++数据结构堆栈队列线性表超速入门文章](https://blog.csdn.net/weixin_41474319/article/details/82962542)
 
 ### 5 代码目录
@@ -65,13 +67,13 @@
 ### 一段话理解指针与引用
 ```c++
 int x = 0;
-int* p = &x; //此时*p就是当x用
-int& t = x; //此时t就是当x用
+int* p = &x; //此时*p可以当x用
+int& t = x; //此时t可以当x用
 
 给*p换个指向的对象
-p = &y;//*p就能当y用
+p = &y;//此时*p可以当y用
 
-给t换个引用的对象
+给t换个要引用的对象
 不好意思，这个墙头草特性被c++之父干掉了
 
 指针与引用都是把p与t关联到x上的一个动作。只不过指针关联的是x的地址（先有*p=&x=0x000DDEE1123 从而使p.equals(x)）,引用关联的是数值(t.equals(x))
