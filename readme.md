@@ -61,7 +61,7 @@
 
 ### 6 代码编译参数
 - 最好是Mac或Linux环境
-- 推荐用终端编译cpp源文件 g++ -Wall -o hello hello.cpp生成hello.obj文件
+- 推荐用终端编译cpp源文件 g++ -Wall -o hello hello.cpp生成hello可执行文件
 - ./hello即可运行
 
 ### 一段话理解指针与引用
