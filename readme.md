@@ -53,17 +53,24 @@
 [C++数据结构堆栈队列线性表超速入门文章](https://blog.csdn.net/weixin_41474319/article/details/82962542)
 
 ### 5 代码目录
-- /src/just_play 练手代码 C语言100例为主
-- /src/board_out 起航篇代码 bool cin cout namespace
-- /src/departure 起航篇代码 指针&&引用 #define&&const 函数默认&&函数重载 内存管理
-- /src/inherit 继承篇代码
-- /src/958C++ 真题代码
+```
+.
+├── C++_Notes.md    //git入门教程
+├── Git_Course.md   //C++学习笔记   这两个文件全部用makrdown语言整理好了，后续也会持续更新
+├── LICENSE
+├── readme.md
+├── src
+│   ├── 958C++      //真题代码
+│   ├── board_out   //起航篇代码 bool cin cout namespace
+│   ├── c_practise  //练手代码 C语言100例为主
+│   ├── departure   //离港篇代码 指针&&引用 #define&&const 函数默认&&函数重载 内存管理
+│   └── inherit     //继承篇代码
+└── tree.md
 
-这三个目录我会在master里持续更新
-- /Git Course.md  git入门教程
-- /C++ Note.md  C++学习笔记
+6 directories, 5 files
+```
 
-这两个文件全部用makrdown语言整理好了，后续也会持续更新
+
 
 ### 6 代码编译参数
 - 最好是Mac或Linux环境
