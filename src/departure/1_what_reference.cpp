@@ -26,8 +26,8 @@ int main(int args,char* argv[]){
     int &b = a;
     //结构体的引用
     Coor &c = c1;
-    //指针的引用,此时p作为一个内存空间名出现，不是作为地址，故不带*
-    int *&q = p;
+    //指针的引用,p是指针，p是a的地址，*p是a。q从p那引用了a的地址，*q是a
+    int* &q = p;
     
     
     c.x=10;
