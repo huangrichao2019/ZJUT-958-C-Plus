@@ -17,4 +17,3 @@ int main(int args,char* argv[]){
     cout<<"ascii转数字"<<0+' '<<endl;//将ascii符号转为对应的数字
     return 0;
 }
-

@@ -5,7 +5,7 @@
 
 
 - 默认你会用github与vscode，百度一下这两样东西不会超过5分钟
-- 下载仓库的同学git clone到本地后建议git fetch origin master:your_branch_name 该指令会基于远程master分支在你本地创建一个你自己的branch,your_branch_nae最好用自己的名字拼音，确保跟别人不一样
+- 下载仓库的同学git clone到本地后建议git fetch origin master:your_branch_name 该指令会基于远程master分支在你本地创建一个你自己的branch。 your_branch_name最好用自己的名字拼音，确保跟别人不一样
 - git checktout your_branch_name即可进入自己的分支
 - 需要在远程创建自己分支的话 git push origin your_branch_name:your_branch_name
 - 本地push自己分支的代码到远程 git push --set-upstream origin your_branch_name
@@ -87,7 +87,7 @@ int& t = x; //此时t可以当x用
 p = &y;//此时*p可以当y用
 
 给t换个要引用的对象
-不好意思，这个墙头草特性被c++之父干掉了，同一作用域内引用一旦初始化完不可再变
+不好意思，这个墙头草特性被c++之父干掉了，单个作用域内引用一旦初始化完不可再变
 ```
 
 **二重指针**
@@ -95,6 +95,9 @@ p = &y;//此时*p可以当y用
 int x= 0;
 int* p = &x; //p是x的地址，*p是x
 int** q = &p; //q是p的地址，*q是x的地址，**q是x
+
+指针传递
+int* t = p;//将指针p传递给指针t，，t是x的地址，*t是x
 ```
 总结:
 指针与引用都是把p与t关联到x上的一个动作。只不过指针关联的是x的地址（先有*p=&x=0x000DDEE1123 从而使 p.equals(x)）,引用关联的是数值(即 t.equals(x))
