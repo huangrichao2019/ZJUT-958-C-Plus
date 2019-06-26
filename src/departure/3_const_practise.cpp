@@ -26,7 +26,7 @@ int main(int args,char* argv[]){
     int* const q = &x;//q不可变，即不可被复制，*q可以被赋值
     // q =&y;报错
     *q = 10;
-s
+
     x = 5;
     cout<<"hello"<<endl; 
     cin.get();
