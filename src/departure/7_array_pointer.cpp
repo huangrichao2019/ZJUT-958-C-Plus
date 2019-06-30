@@ -11,7 +11,8 @@ int main(int args,char* argv[]){
     //有规律的可以用for循环
     //或者正常初始化一个数组A,把A的首地址赋给arr
 
- 
+    
+    
     cout<<"int* arr = new int[0];arr[0]为"<<arr[0]<<endl; 
     cin.get();
     return 0;
