@@ -1,6 +1,6 @@
-## 浙工大958C++
+## 代码是不会骗人的
     
-    本仓库属于浙工大计算机958代码仓库，**同时也是极好的C++入门教程仓库，你只要根据这篇Readme，一步一步来就能踏入程序开发的世界**
+    本仓库属于浙江工业大学计算机958代码仓库，同时也是极好的C++入门教程仓库，你只要根据这篇Readme，一步一步来就能踏入程序开发的世界
     
 
 
@@ -9,7 +9,7 @@
 - git checktout your_branch_name即可进入自己的分支
 - 需要在远程创建自己分支的话 git push origin your_branch_name:your_branch_name
 - 本地push自己分支的代码到远程 git push --set-upstream origin your_branch_name
-- 以后每次提交前请先git pull一下，防止conflict
+- 以后每次提交前请先 git pull一下，防止conflict
 - 打标签 git tag -a v1.0 -m '起航篇'
 - 推送标签到远程 git push origin --tags
 
@@ -37,6 +37,7 @@
 - git config --global user.name"你的名字"
 - git config --global alias.co checkout
 - git config --global alias.br branch
+- 
 - git config --global alias.ci commit
 - git config --global alias.st status
 - git config --global alias.lg=log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'
@@ -79,8 +80,8 @@
 - ./hello即可运行
 
 #### 6.1 代码的三层报错
-- 第一层error > 第二层warning > 第三层run_bad 。请记住build well 不代表run well。否则程序员们也不用修bug了。
-- 编译器报错（编译器就是你敲代码与编译运行代码的那个软件）属于最基本的报错，error表示语法错误,直接不让你运行程序。warning表示编译器提醒你代码里可能的问题与bug，但允许你运行程序。
+- 第一层error > 第二层warning > 第三层run_bad 。请记住build well 不代表run well，否则程序员们也不用修bug了。
+- 编译器与C++是两回事，编译器就是你敲代码与编译运行代码的那个软件，属于最基本的报错，error表示语法错误,直接不让你运行程序。warning表示编译器提醒你代码里可能的问题与bug，但允许你运行程序。
 - 很明显，error是所有c++编译器通用的，因为就那么几套语法版本
 - 但是,warning就不一定了，同样一种写法int* p;不同的编译器开发公司定义不同的报错规则。在A编译器里是0 warning的程序，在B编译器里就可能是1 warning。
 - 0 error 0 warning的程序就是完美的了吗？大错特错。如果这样的程序就是是完美的程序，那程序员也不用代码都交给客户了还要每天加班改Bug。
@@ -103,12 +104,15 @@ p = &y;//此时*p就是y本身
 不好意思，这个墙头草特性被c++之父干掉了，int& 自带const，单个作用域内引用一旦初始化完成不可再变
 ```
 
-p与*p这两个符号的区别：
+p与*p这两个符x号的区别：
 
 写法|类型|是什么
 --|--|--
 *p|int|是数值
 p|int*|是0x地址
+&p|&|是0x地址
+*&q|无|没有这种写法
+int* &q=p|int*|q是0x地址,q==p
 
 **二重指针**
 ```C++
