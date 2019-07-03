@@ -2,8 +2,8 @@
 //  main.c
 //  C
 //
-//  Created by 黄梦瑶 on 2018/5/18.
-//  Copyright © 2018年 黄梦瑶. All rights reserved.
+//  Created by huangrichao on 2018/5/18.
+//  Copyright © 2018年 huangrichao. All rights reserved.
 //
 
 #include <stdio.h>
