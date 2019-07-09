@@ -612,6 +612,9 @@ int *p写法|类型|内容
 p|int*|0x地址
 
 
+## 分文件类外定义
+Teacher.h 类似于接口，里面定义class，定义方法，却不写方法体
+Teacher.cpp 类似于实现类，里面include "Teacher.h" 并实现
 
 
 
