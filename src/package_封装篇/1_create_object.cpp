@@ -13,6 +13,29 @@ class TV{
     public:
         void changeVol();
         void power();
+    
+};//class 加分号
+
+
+class Student{
+    private: //只读属性
+        string m_name;
+        string m_gender;
+        int m_age;
+    public://对外的封装方法
+        void setAge(int _age){
+            if(_age>0 && _age<100){
+                m_age = _age;
+            }else{
+                cout<<"age范围应该0-100"<<endl;
+            }
+        }
+
+        int getAge(){
+            return m_age;
+        }
+
+        void set
 
     
 };//class 加分号

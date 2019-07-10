@@ -4,5 +4,6 @@
         "ostream": "cpp",
         "new": "cpp"
     },
-    "C_Cpp.errorSquiggles": "Disabled"
+    "C_Cpp.errorSquiggles": "Disabled",
+    "jira-plugin.workingProject": ""
 }
