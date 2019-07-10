@@ -1,12 +1,9 @@
-#include <stdlib.h>
-#include <iostream>
-#include "Teacher.h"
-using namespace std;
+#include "Teacher.h" //将.h的代码粘贴过来
 
-//纯粹对.h文件里的方法的实现
-//Teacher::代表后面的代码会被编译器（不是编辑器）塞进Teacher.h里
+
+//写法与同文件类外定义一模一样
+//Teacher::代表后面的代码会被编译器（不是编辑器）指向Teacher类
 Teacher::Teacher(){
-    //可以看到m_strName是凭空出现的，说明编译器编译时会将.cpp里的代码替换到.h里
     //不这样想无法解释m_strName是哪里来的
     m_strName = "Jim";
     m_intAge = 5;
